@@ -16,3 +16,10 @@ description: >-
   * Size - 160GB or larger
 
 The following assumes Ubuntu Distro on machine. However, steps should be the same for other Linux distros.
+
+## Current Step Order
+
+1. Prep Node Install
+2. Initiate Node
+3. Set Others (Recurring step; each time node is restarted.)
+4. Create Validator
