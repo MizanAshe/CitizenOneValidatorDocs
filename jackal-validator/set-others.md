@@ -53,7 +53,7 @@ GAS="0.002ujkl"
 sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"$GAS\"/" ~/.canine/config/app.toml
 ```
 
-**/\*\* Stop here, ask for faucet funds, provide wallet address \*\*/**&#x20;
+### _**/\*\* For time time setup: Stop here, ask for faucet funds, provide wallet address \*\*/**_&#x20;
 
 **Start node with following command**
 
