@@ -27,7 +27,7 @@ sed -i.bak -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persi
 Use the following to review .toml file to confirm peers and seeds are correct:
 
 ```
-/sudo nano /root/.canine/config/config.toml
+sudo nano /root/.canine/config/config.toml
 ```
 
 ```
