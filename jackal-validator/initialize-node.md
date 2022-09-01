@@ -20,18 +20,12 @@ canined init $MONIKER --chain-id=$CHAIN
 canined keys add $ALIAS
 ```
 
-**Get latest Woof JSON file**
+You will be asked to enter a keyring passphrase at this point. (Keep this in a safe place.)
 
 ```
-wget -O ~/.canine/config/genesis.json https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/woof2.json
-```
-
-**Add Genesis Account**
-
-(Replaced "\<WALLETADDRESS>" with node wallet address as appropriate.) &#x20;
-
-```
-canined add-genesis-account <WALLETADDRESS> 250000000ujkl
+//Create a passphrase here
+Enter keyring passphrase:
+Re-enter keyring passphrase:
 ```
 
 The following node info will display something like this:
@@ -54,3 +48,17 @@ It is the only way to recover your account if you ever forget your password.
 [MNEMONIC PHRASE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx]
 ```
 {% endcode %}
+
+**Get latest Woof JSON file**
+
+```
+wget -O ~/.canine/config/genesis.json https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/woof2.json
+```
+
+**Add Genesis Account**
+
+(Replaced "\<WALLETADDRESS>" with node wallet address as appropriate.) &#x20;
+
+```
+canined add-genesis-account <WALLETADDRESS> 250000000ujkl
+```
